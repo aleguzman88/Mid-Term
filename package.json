@@ -42,7 +42,8 @@
     "@types/node": "^10.17.31",
     "@types/passport": "^1.0.4",
     "@types/passport-local": "^1.0.33",
-    "@types/passport-local-mongoose": "^4.0.13"
+    "@types/passport-local-mongoose": "^4.0.13",
+    "ejs-lint": "^2.0.0"
   },
   "repository": {
     "type": "git",
