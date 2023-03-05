@@ -6,11 +6,13 @@ let cookieParser = require('cookie-parser');
 let logger = require('morgan');
 
 // import "mongoose" - required for DB Access
+
 let mongoose = require('mongoose');
+require('dotenv').config();
 // URI
 let DB = require('./db');
 
-mongoose.connect(process.env.URI || DB.URI, {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect(process.env.MONGODB_URI || DB.URI, {useNewUrlParser: true, useUnifiedTopology: true});
 
 let mongoDB = mongoose.connection;
 mongoDB.on('error', console.error.bind(console, 'Connection Error:'));
