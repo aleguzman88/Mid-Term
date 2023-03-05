@@ -1,6 +1,7 @@
 let app = require('./server/config/app');
 let debug = require('debug')('comp308-w2019-midterm:server');
 let http = require('http');
+require('dotenv').config();
 
 /**
  * Get port from environment and store in Express.
