@@ -11,7 +11,7 @@
     "ExpressJS",
     "EJS"
   ],
-  "homepage": "",
+  "homepage": "https://bookandseeker.herokuapp.com/",
   "ignore": [
     "**/.*",
     "node_modules",
