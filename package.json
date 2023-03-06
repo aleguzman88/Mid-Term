@@ -7,7 +7,7 @@
   },
   "dependencies": {
     
-    "connect-flash": "^0.1.1",
+    
     "cookie-parser": "^1.4.5",
     "debug": "~2.6.9",
     "dotenv": "^16.0.3",
@@ -54,7 +54,7 @@
     "ExpressJS",
     "EJS"
   ],
-  "author": "Your Name Goes Here",
+  "author": "Manuel Guzman",
   "license": "ISC",
   "bugs": {
     "url": ""
